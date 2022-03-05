@@ -28,11 +28,11 @@ public class Exercicio02 {
 		int num = scan.nextInt();
 		for(int j = 0; j < numeros.length; j++) {
 			if(numeros[j] == num) {
-				System.out.printf("O número %o está na posição %o do VETOR!!", num, j);
+				System.out.printf("O número %d está na posição %d do VETOR!!", num, j);
 				return;
 			}
 		}
-		System.out.printf("Número %o não existe no VETOR!!", num);
+		System.out.printf("Número %d não existe no VETOR!!", num);
 	}
 
 }

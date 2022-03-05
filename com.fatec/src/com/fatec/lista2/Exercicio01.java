@@ -16,7 +16,7 @@ public class Exercicio01 {
 		Integer num = scan.nextInt();
 		for(int i = 0; i <= num; i++) {
 			if(i % 2 == 0) {
-				System.out.printf("%o, ", i);
+				System.out.printf("%d, ", i);
 			}
 		}
 	}
